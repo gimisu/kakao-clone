@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - KaKaoTalk</title>
+    <title>More - KaKaoTalk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,44 +24,45 @@
         </div>
     </div>
 
-        <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
-            <div class="screen-header__icon">               
-                <span>
-                    <i class="fas fa-search fa-lg" ></i>
-                </span>
-                <span>
-                    <i class="fas fa-comment-medical fa-lg"></i>
-                </span>
-                <span>
-                    <i class="fas fa-music fa-lg" ></i>
-                </span>
-                <span>
-                    <i class="fas fa-cog fa-lg" ></i>
-                </span>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="more.html">
+                <i class="fas fa-angle-left fa-3x"></i></a>
             </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column">
+                <i class="fas fa-search fa-2x" ></i>
+            </div>            
         </header>
 
         
 
         <main class="main-screen">
-            <a href="chat.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="https://postfiles.pstatic.net/MjAyMDEyMjZfMTky/MDAxNjA4OTE3Njg2NTk3.vDAinSeYl6qhQqOx9doHHyW-udeNKLH1pDEO7cleRWUg.3TC0wD3cWkmWWm9h_HZDvUFH5j5avXC1JDYdiMQs3xwg.JPEG.mimijinbee/IMG_1313.JPG" 
-                    class="user-component__avatar user-component__avatar" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">Tangled</h4>
-                        <h6 class="user-component__subtitle">
-                            Please Check My KaKao Account Info</h6>
+           <ul class="settings-list">
+               <li class="settings__setting">
+                   <div class="settings__setting__column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
                     </div>
-                </div>
-                <div class="user-component__colume">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
-            </div>
-            </a>
+                    <div class="settings__setting__column"></div>
+               </li>
+               <li class="settings__setting">
+                <div class="settings__setting__column">
+                    <i class="fas fa-flask"></i>
+                    <span>KaKao Lab</span>
+                    </div>
+                    <div class="settings__setting__column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                    </div>
+                    <div class="settings__setting__column">Latest Version</div>
+                </li>
+           </ul>
         </main>
 
         
@@ -74,7 +75,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-2x"></i></a>
+                    <i class="far fa-comment fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html">
