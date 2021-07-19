@@ -9,6 +9,7 @@
 @import "componenents/user-component.css";
 @import "componenents/badge.css";
 @import "componenents/icon-row.css";
+@import "componenents/no-mobile.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";
